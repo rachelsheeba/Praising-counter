@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.lap-limit{
+    font-size: 20px;
+}
+
+.counter-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.logo-heading{
+    font-size: 2rem;
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 5px;
+}
+
+.add-icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+
+}
+
+.counter-btn{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    color: #f3e8e8;
+    font-size: 50px;
+
+}

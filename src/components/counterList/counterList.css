@@ -1,0 +1,9 @@
+
+.counterHeader{
+    background: url("../../assets/Bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 1000px;
+    z-index: 2;
+}
